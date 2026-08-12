@@ -1,0 +1,13 @@
+graph TD
+  r0["torso-record-61e6cf3dfc17693f6b0a2179ff98fd8f30405b1f1ae408075b746cc0510a0f40<br/>SPLIT<br/>depth=0"]
+  class r0 SPLIT
+  r1["torso-record-803c552fd4576040299fc2cc3d618b2732ab0f44320ebff0a9cee9b724be1281<br/>HIGH<br/>depth=1"]
+  class r1 HIGH
+  r2["torso-record-efed5eda96c39c9a1129e28f82375f1fa7219cf95f58032460320850c5216c69<br/>HIGH<br/>depth=1"]
+  class r2 HIGH
+  r0 -->|"tree-node-a7568b283d0d2f0103527c09f99155f825ef067a72164ad7176f5ff605be0472"| r1
+  r0 -->|"tree-node-5e3c84b93eee17390ba7fd54fbae393cdfe55228320620ac8c2b4e56f9572e32"| r2
+  classDef SMALL fill:grey,stroke:grey
+  classDef HIGH fill:green,stroke:green
+  classDef CROSSED fill:red,stroke:red
+  classDef SPLIT fill:blue,stroke:blue
