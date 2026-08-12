@@ -1,0 +1,194 @@
+graph BL_RCTN {
+  graph [label="curated-k4-complete_bipartite"];
+  subgraph cluster_root {
+    label="root graph";
+    root_0 [label="0"];
+    root_1 [label="1"];
+    root_2 [label="2"];
+    root_3 [label="3"];
+    root_4 [label="4"];
+    root_5 [label="5"];
+    root_6 [label="6"];
+    root_7 [label="7"];
+    root_8 [label="8"];
+    root_0 -- root_4 [color="black", style="solid", label="ROOT_REAL"];
+    root_0 -- root_5 [color="black", style="solid", label="ROOT_REAL"];
+    root_0 -- root_6 [color="black", style="solid", label="ROOT_REAL"];
+    root_0 -- root_7 [color="black", style="solid", label="ROOT_REAL"];
+    root_0 -- root_8 [color="black", style="solid", label="ROOT_REAL"];
+    root_1 -- root_4 [color="black", style="solid", label="ROOT_REAL"];
+    root_1 -- root_5 [color="black", style="solid", label="ROOT_REAL"];
+    root_1 -- root_6 [color="black", style="solid", label="ROOT_REAL"];
+    root_1 -- root_7 [color="black", style="solid", label="ROOT_REAL"];
+    root_1 -- root_8 [color="black", style="solid", label="ROOT_REAL"];
+    root_2 -- root_4 [color="black", style="solid", label="ROOT_REAL"];
+    root_2 -- root_5 [color="black", style="solid", label="ROOT_REAL"];
+    root_2 -- root_6 [color="black", style="solid", label="ROOT_REAL"];
+    root_2 -- root_7 [color="black", style="solid", label="ROOT_REAL"];
+    root_2 -- root_8 [color="black", style="solid", label="ROOT_REAL"];
+    root_3 -- root_4 [color="black", style="solid", label="ROOT_REAL"];
+    root_3 -- root_5 [color="black", style="solid", label="ROOT_REAL"];
+    root_3 -- root_6 [color="black", style="solid", label="ROOT_REAL"];
+    root_3 -- root_7 [color="black", style="solid", label="ROOT_REAL"];
+    root_3 -- root_8 [color="black", style="solid", label="ROOT_REAL"];
+  }
+  subgraph cluster_torso_0 {
+    label="torso-record-1d4784de0c34dc50d9981b188b85924d8c2aa383dda423a88e605a29ea02705c";
+    torso_0_0 [label="0"];
+    torso_0_1 [label="1"];
+    torso_0_2 [label="2"];
+    torso_0_3 [label="3"];
+    torso_0_0 -- torso_0_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_0_0 -- torso_0_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_0_0 -- torso_0_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_0_0 -- torso_0_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_0_0 -- torso_0_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_0_0 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_0_0 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_0_0 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_0_0 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_0_0 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_0_0 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_0_0 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_0_0 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_0_0 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_0_0 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_0_1 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_0_1 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_0_1 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_0_1 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_0_1 -- torso_0_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_0_1 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_0_1 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_0_1 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_0_1 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_0_1 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_0_2 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_0_2 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_0_2 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_0_2 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_0_2 -- torso_0_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+  }
+  subgraph cluster_torso_1 {
+    label="torso-record-43e4d2baec29e854353b78171175c6c68179c93a2be196c4601a3a6bd581024c";
+    torso_1_0 [label="0"];
+    torso_1_1 [label="1"];
+    torso_1_2 [label="2"];
+    torso_1_3 [label="3"];
+    torso_1_6 [label="6"];
+    torso_1_0 -- torso_1_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_1_0 -- torso_1_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_1_0 -- torso_1_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_1_0 -- torso_1_6 [color="black", style="solid", label="ROOT_REAL"];
+    torso_1_1 -- torso_1_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_1_1 -- torso_1_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_1_1 -- torso_1_6 [color="black", style="solid", label="ROOT_REAL"];
+    torso_1_2 -- torso_1_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-53132699143c2280963cd9e1d9eec266898deac59ebdaa7d5e1ca60e6f881bfc"];
+    torso_1_2 -- torso_1_6 [color="black", style="solid", label="ROOT_REAL"];
+    torso_1_3 -- torso_1_6 [color="black", style="solid", label="ROOT_REAL"];
+  }
+  subgraph cluster_torso_2 {
+    label="torso-record-561810c99318a1f6678a84ad53ef2c16c3e446d79731bc9547be527c488f4ed9";
+    torso_2_0 [label="0"];
+    torso_2_1 [label="1"];
+    torso_2_2 [label="2"];
+    torso_2_3 [label="3"];
+    torso_2_4 [label="4"];
+    torso_2_0 -- torso_2_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_2_0 -- torso_2_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_2_0 -- torso_2_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_2_0 -- torso_2_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_2_1 -- torso_2_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_2_1 -- torso_2_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_2_1 -- torso_2_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_2_2 -- torso_2_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-9ad909e05c3bb835d6227db5724a4aa65caa3c1096430f74e84a215f22c88d59"];
+    torso_2_2 -- torso_2_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_2_3 -- torso_2_4 [color="black", style="solid", label="ROOT_REAL"];
+  }
+  subgraph cluster_torso_3 {
+    label="torso-record-88c1a87be22b06172e7fc8f46f3ae8456b80fafaf519940125127baeeb99ae73";
+    torso_3_0 [label="0"];
+    torso_3_1 [label="1"];
+    torso_3_2 [label="2"];
+    torso_3_3 [label="3"];
+    torso_3_8 [label="8"];
+    torso_3_0 -- torso_3_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_3_0 -- torso_3_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_3_0 -- torso_3_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_3_0 -- torso_3_8 [color="black", style="solid", label="ROOT_REAL"];
+    torso_3_1 -- torso_3_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_3_1 -- torso_3_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_3_1 -- torso_3_8 [color="black", style="solid", label="ROOT_REAL"];
+    torso_3_2 -- torso_3_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-ccf4b8794bae5187c34f88bfd206ac16943ea3e3864642c51a5ee708d502bdcb"];
+    torso_3_2 -- torso_3_8 [color="black", style="solid", label="ROOT_REAL"];
+    torso_3_3 -- torso_3_8 [color="black", style="solid", label="ROOT_REAL"];
+  }
+  subgraph cluster_torso_4 {
+    label="torso-record-a8a918e148935542029146cb093f5b851b86b8af1c45a6d3ec7906bfa655b07f";
+    torso_4_0 [label="0"];
+    torso_4_1 [label="1"];
+    torso_4_2 [label="2"];
+    torso_4_3 [label="3"];
+    torso_4_4 [label="4"];
+    torso_4_5 [label="5"];
+    torso_4_6 [label="6"];
+    torso_4_7 [label="7"];
+    torso_4_8 [label="8"];
+    torso_4_0 -- torso_4_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_0 -- torso_4_5 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_0 -- torso_4_6 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_0 -- torso_4_7 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_0 -- torso_4_8 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_1 -- torso_4_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_1 -- torso_4_5 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_1 -- torso_4_6 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_1 -- torso_4_7 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_1 -- torso_4_8 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_2 -- torso_4_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_2 -- torso_4_5 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_2 -- torso_4_6 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_2 -- torso_4_7 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_2 -- torso_4_8 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_3 -- torso_4_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_3 -- torso_4_5 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_3 -- torso_4_6 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_3 -- torso_4_7 [color="black", style="solid", label="ROOT_REAL"];
+    torso_4_3 -- torso_4_8 [color="black", style="solid", label="ROOT_REAL"];
+  }
+  subgraph cluster_torso_5 {
+    label="torso-record-fad781b72e3a4df06577b891fe415fed9913f15ea3c89dc911c2eed2c7335525";
+    torso_5_0 [label="0"];
+    torso_5_1 [label="1"];
+    torso_5_2 [label="2"];
+    torso_5_3 [label="3"];
+    torso_5_5 [label="5"];
+    torso_5_0 -- torso_5_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_5_0 -- torso_5_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_5_0 -- torso_5_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_5_0 -- torso_5_5 [color="black", style="solid", label="ROOT_REAL"];
+    torso_5_1 -- torso_5_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_5_1 -- torso_5_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_5_1 -- torso_5_5 [color="black", style="solid", label="ROOT_REAL"];
+    torso_5_2 -- torso_5_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-0c042fd71b5d8bd4820d0f0f9cd84eabd52d0c7b331da963a60011645d8a093a"];
+    torso_5_2 -- torso_5_5 [color="black", style="solid", label="ROOT_REAL"];
+    torso_5_3 -- torso_5_5 [color="black", style="solid", label="ROOT_REAL"];
+  }
+  subgraph cluster_torso_6 {
+    label="torso-record-fc6eae9d1ab173046c8e7bdf5a3fa47514b8efeb10e59573339c375a93b318d2";
+    torso_6_0 [label="0"];
+    torso_6_1 [label="1"];
+    torso_6_2 [label="2"];
+    torso_6_3 [label="3"];
+    torso_6_7 [label="7"];
+    torso_6_0 -- torso_6_1 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_6_0 -- torso_6_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_6_0 -- torso_6_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_6_0 -- torso_6_7 [color="black", style="solid", label="ROOT_REAL"];
+    torso_6_1 -- torso_6_2 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_6_1 -- torso_6_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_6_1 -- torso_6_7 [color="black", style="solid", label="ROOT_REAL"];
+    torso_6_2 -- torso_6_3 [color="blue", style="dashed", label="VIRTUAL_INTERFACE:interface-76303b534408a24cae2c93f54d8a21e27d94121b3190fe2908bd8075385fbe46"];
+    torso_6_2 -- torso_6_7 [color="black", style="solid", label="ROOT_REAL"];
+    torso_6_3 -- torso_6_7 [color="black", style="solid", label="ROOT_REAL"];
+  }
+}

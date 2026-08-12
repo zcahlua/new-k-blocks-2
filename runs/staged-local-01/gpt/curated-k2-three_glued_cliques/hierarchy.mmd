@@ -1,0 +1,19 @@
+graph TD
+  r0["torso-record-7d08d8154b9c034ad85e66679dda5c62a2c13f1c0c592ea561101be05afc74b7<br/>SMALL<br/>depth=1"]
+  class r0 SMALL
+  r1["torso-record-95aa39650ebd0d3fd5f4ba9c4a0a6390ff622bd4c88b28c48ba0ac01c85f2783<br/>HIGH<br/>depth=1"]
+  class r1 HIGH
+  r2["torso-record-cfac29d77e69c16182c16ba8f941963df206ea92c45f43c803854d2a36712d1a<br/>HIGH<br/>depth=1"]
+  class r2 HIGH
+  r3["torso-record-d5b16ce552082865e5a5da37c139822883bd5c55ff56b693100a20a837267a58<br/>SPLIT<br/>depth=0"]
+  class r3 SPLIT
+  r4["torso-record-d658f605cf9b410ae289118b063abd7c4b2bab2a17a146de217dcffdef909246<br/>HIGH<br/>depth=1"]
+  class r4 HIGH
+  r3 -->|"tree-node-425e0fd31be33c534e1c4a39c511e35c023dcfe0860c890fb86cb4dd10665c51"| r0
+  r3 -->|"tree-node-6bcf2aaea88304b820e4055ae2f3ac3e645a6fd25ff6afbabcd4c988eebc7bcd"| r1
+  r3 -->|"tree-node-8940761a1ea57632140ed34d974bfd9b669b18c28ec727dfc95856413941033b"| r2
+  r3 -->|"tree-node-758ad01fe9565255926c8b6f8af9836d6ca6f8b5456b9a3037ad622a2090cf0b"| r4
+  classDef SMALL fill:grey,stroke:grey
+  classDef HIGH fill:green,stroke:green
+  classDef CROSSED fill:red,stroke:red
+  classDef SPLIT fill:blue,stroke:blue

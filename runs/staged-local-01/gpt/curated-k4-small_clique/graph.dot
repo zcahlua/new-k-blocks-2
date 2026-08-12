@@ -1,0 +1,39 @@
+graph BL_RCTN {
+  graph [label="curated-k4-small_clique"];
+  subgraph cluster_root {
+    label="root graph";
+    root_0 [label="0"];
+    root_1 [label="1"];
+    root_2 [label="2"];
+    root_3 [label="3"];
+    root_4 [label="4"];
+    root_0 -- root_1 [color="black", style="solid", label="ROOT_REAL"];
+    root_0 -- root_2 [color="black", style="solid", label="ROOT_REAL"];
+    root_0 -- root_3 [color="black", style="solid", label="ROOT_REAL"];
+    root_0 -- root_4 [color="black", style="solid", label="ROOT_REAL"];
+    root_1 -- root_2 [color="black", style="solid", label="ROOT_REAL"];
+    root_1 -- root_3 [color="black", style="solid", label="ROOT_REAL"];
+    root_1 -- root_4 [color="black", style="solid", label="ROOT_REAL"];
+    root_2 -- root_3 [color="black", style="solid", label="ROOT_REAL"];
+    root_2 -- root_4 [color="black", style="solid", label="ROOT_REAL"];
+    root_3 -- root_4 [color="black", style="solid", label="ROOT_REAL"];
+  }
+  subgraph cluster_torso_0 {
+    label="torso-record-8f53b5f33209ce12bd536252324c6f16bbfd80b571c2ac1615698906f5fb29e4";
+    torso_0_0 [label="0"];
+    torso_0_1 [label="1"];
+    torso_0_2 [label="2"];
+    torso_0_3 [label="3"];
+    torso_0_4 [label="4"];
+    torso_0_0 -- torso_0_1 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_0 -- torso_0_2 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_0 -- torso_0_3 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_0 -- torso_0_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_1 -- torso_0_2 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_1 -- torso_0_3 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_1 -- torso_0_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_2 -- torso_0_3 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_2 -- torso_0_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_3 -- torso_0_4 [color="black", style="solid", label="ROOT_REAL"];
+  }
+}

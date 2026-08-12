@@ -1,0 +1,33 @@
+graph BL_RCTN {
+  graph [label="curated-k2-joined_cycle"];
+  subgraph cluster_root {
+    label="root graph";
+    root_0 [label="0"];
+    root_1 [label="1"];
+    root_2 [label="2"];
+    root_3 [label="3"];
+    root_4 [label="4"];
+    root_5 [label="5"];
+    root_0 -- root_1 [color="black", style="solid", label="ROOT_REAL"];
+    root_0 -- root_5 [color="black", style="solid", label="ROOT_REAL"];
+    root_1 -- root_2 [color="black", style="solid", label="ROOT_REAL"];
+    root_2 -- root_3 [color="black", style="solid", label="ROOT_REAL"];
+    root_3 -- root_4 [color="black", style="solid", label="ROOT_REAL"];
+    root_4 -- root_5 [color="black", style="solid", label="ROOT_REAL"];
+  }
+  subgraph cluster_torso_0 {
+    label="torso-record-edeb08d4f255120e2dfa6fb8a1b6ed70a5260f948f49205f560a6c67786133fe";
+    torso_0_0 [label="0"];
+    torso_0_1 [label="1"];
+    torso_0_2 [label="2"];
+    torso_0_3 [label="3"];
+    torso_0_4 [label="4"];
+    torso_0_5 [label="5"];
+    torso_0_0 -- torso_0_1 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_0 -- torso_0_5 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_1 -- torso_0_2 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_2 -- torso_0_3 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_3 -- torso_0_4 [color="black", style="solid", label="ROOT_REAL"];
+    torso_0_4 -- torso_0_5 [color="black", style="solid", label="ROOT_REAL"];
+  }
+}
